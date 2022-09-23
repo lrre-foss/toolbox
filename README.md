@@ -1,4 +1,5 @@
 # Roblox.Tools
+![License](https://img.shields.io/github/license/orcfoss/Roblox.Tools) ![Star](https://img.shields.io/github/stars/orcfoss/Roblox.Tools?style=social)
 
 Assortment of Roblox client modification tools, updated from time to time
 
