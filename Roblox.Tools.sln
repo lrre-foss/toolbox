@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.KeyGenerator", "Roblox.KeyGenerator\Roblox.KeyGenerator.csproj", "{EBBEF493-2AC7-4335-8EA8-1E09A6FEEFFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.DiogenesConverter", "Roblox.DiogenesConverter\Roblox.DiogenesConverter.csproj", "{F0E357C7-34EB-4CDB-86E1-9259C4B58126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.ScriptSigner", "Roblox.ScriptSigner\Roblox.ScriptSigner.csproj", "{3F1D21F9-E946-4260-A8D9-EBD336B071C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7572CE79-61DE-46E2-95A6-88CC57062D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7572CE79-61DE-46E2-95A6-88CC57062D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7572CE79-61DE-46E2-95A6-88CC57062D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7572CE79-61DE-46E2-95A6-88CC57062D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBBEF493-2AC7-4335-8EA8-1E09A6FEEFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBBEF493-2AC7-4335-8EA8-1E09A6FEEFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBBEF493-2AC7-4335-8EA8-1E09A6FEEFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBBEF493-2AC7-4335-8EA8-1E09A6FEEFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E357C7-34EB-4CDB-86E1-9259C4B58126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E357C7-34EB-4CDB-86E1-9259C4B58126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E357C7-34EB-4CDB-86E1-9259C4B58126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E357C7-34EB-4CDB-86E1-9259C4B58126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1D21F9-E946-4260-A8D9-EBD336B071C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1D21F9-E946-4260-A8D9-EBD336B071C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1D21F9-E946-4260-A8D9-EBD336B071C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1D21F9-E946-4260-A8D9-EBD336B071C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28B74346-28AB-4727-980A-31F403CCF4F6}
+	EndGlobalSection
+EndGlobal

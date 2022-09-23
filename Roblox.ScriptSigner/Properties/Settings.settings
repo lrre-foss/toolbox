@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Roblox.ScriptSigner.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="NewSignatureFormat" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GenerateNewFiles" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GeneratedNewFileSuffix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.signed</Value>
+    </Setting>
+    <Setting Name="PrivateKeyBlobFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PrivateKeyBlob.txt</Value>
+    </Setting>
+    <Setting Name="PrivateKeyBlobIsBase64" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

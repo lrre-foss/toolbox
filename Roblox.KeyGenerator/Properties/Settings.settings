@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Roblox.KeyGenerator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GeneratePem" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GenerateBlobs" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Base64EncodedBlobs" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PublicKeyBlobFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PublicKeyBlob.txt</Value>
+    </Setting>
+    <Setting Name="PrivateKeyBlobFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PrivateKeyBlob.txt</Value>
+    </Setting>
+    <Setting Name="PrivateKeyPemFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PrivateKey.pem</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
