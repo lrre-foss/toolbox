@@ -1,7 +1,8 @@
-# Roblox.Tools
-![License](https://img.shields.io/github/license/orcfoss/Roblox.Tools) ![Star](https://img.shields.io/github/stars/orcfoss/Roblox.Tools?style=social)
+# Toolbox
+[![License](https://img.shields.io/github/license/lrre-foss/toolbox)](https://github.com/lrre-foss/toolbox/blob/trunk/LICENSE)
+[![Star](https://img.shields.io/github/stars/lrre-foss/toolbox?style=social)](https://github.com/lrre-foss/toolbox/stargazers)
 
-Assortment of Roblox client modification tools, updated from time to time
+Assortment of tools used for modifying legacy Roblox client binaries
 
 ```
 Roblox.Tools
@@ -18,4 +19,4 @@ Roblox.Tools
 
 ## License
 
-Roblox.Tools is licensed under the MIT license. A copy of it [has been included](https://github.com/orcfoss/Roblox.Tools/blob/trunk/LICENSE) with Roblox.Tools.
+Toolbox is licensed under the [MIT license](https://github.com/orcfoss/Roblox.Tools/blob/trunk/LICENSE). A copy of it has been included with Toolbox.
