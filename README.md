@@ -19,4 +19,4 @@ Roblox.Tools
 
 ## License
 
-Toolbox is licensed under the [MIT license](https://github.com/orcfoss/Roblox.Tools/blob/trunk/LICENSE). A copy of it has been included with Toolbox.
+Toolbox is licensed under the [MIT license](https://github.com/lrre-foss/Toolbox/blob/trunk/LICENSE). A copy of it has been included with Toolbox.
