@@ -4,7 +4,7 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-  - package-ecosystem: "gitsubmodule"
+  - package-ecosystem: "nuget"
     directory: "/"
     schedule:
       interval: "daily"
