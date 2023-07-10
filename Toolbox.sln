@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbox.KeyGenerator", "Toolbox.KeyGenerator\Toolbox.KeyGenerator.csproj", "{D5F9673D-F2E5-495C-B5F6-E17D2AD49C13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbox.ScriptSigner", "Toolbox.ScriptSigner\Toolbox.ScriptSigner.csproj", "{457D94A3-6073-4786-A954-C310C7318124}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5F9673D-F2E5-495C-B5F6-E17D2AD49C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F9673D-F2E5-495C-B5F6-E17D2AD49C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F9673D-F2E5-495C-B5F6-E17D2AD49C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F9673D-F2E5-495C-B5F6-E17D2AD49C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{457D94A3-6073-4786-A954-C310C7318124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457D94A3-6073-4786-A954-C310C7318124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457D94A3-6073-4786-A954-C310C7318124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457D94A3-6073-4786-A954-C310C7318124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91948721-D2B2-4C34-99AD-27F436CE6B7C}
+	EndGlobalSection
+EndGlobal
