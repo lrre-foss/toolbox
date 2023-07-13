@@ -20,5 +20,5 @@ jobs:
     - name: Upload
       uses: actions/upload-artifact@v3
       with:
-        name: Toolbox (${{ matrix.platform }})
+        name: ${{ matrix.platform }}
         path: publish/${{ matrix.platform }}/*
