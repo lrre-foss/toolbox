@@ -1,0 +1,23 @@
+name: CI
+on: [push]
+
+jobs:
+  build:
+    strategy:
+      platform: [win-x64, linux-x64]
+    
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 7.0.x
+    - name: Build
+      run: dotnet publish -r ${{ matrix.platform }} -c Release --no-self-contained -p:PublishDir=../publish/${{ matrix.platform }}
+    - name: Upload
+      uses: actions/upload-artifact@v3
+      with:
+        name: Toolbox (${{ matrix.platform }})
+        path: publish/${{ matrix.platform }}/*
