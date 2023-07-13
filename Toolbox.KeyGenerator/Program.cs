@@ -30,7 +30,7 @@ namespace Toolbox.KeyGenerator
             string publicKeyPem = rsa.ExportRSAPublicKeyPem();
             string privateKeyPem = rsa.ExportRSAPrivateKeyPem();
 
-            Console.Write("done!");
+            Console.WriteLine("done!");
             
             File.WriteAllBytes(Path.Combine(path, "public.bin"), Encoding.UTF8.GetBytes(Convert.ToBase64String(publicKeyBlob)));
             File.WriteAllBytes(Path.Combine(path, "private.bin"), Encoding.UTF8.GetBytes(Convert.ToBase64String(publicKeyBlob)));
