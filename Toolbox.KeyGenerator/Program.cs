@@ -20,6 +20,8 @@ namespace Toolbox.KeyGenerator
                 size = result;
             }
 
+            Console.Write("status: generating keys...")
+
             using RSACryptoServiceProvider rsa = new(size);
 
             byte[] publicKeyBlob = rsa.ExportCspBlob(false);
@@ -28,6 +30,8 @@ namespace Toolbox.KeyGenerator
             string publicKeyPem = rsa.ExportRSAPublicKeyPem();
             string privateKeyPem = rsa.ExportRSAPrivateKeyPem();
 
+            Console.write("done!");
+            
             File.WriteAllBytes(Path.Combine(path, "public.bin"), Encoding.UTF8.GetBytes(Convert.ToBase64String(publicKeyBlob)));
             File.WriteAllBytes(Path.Combine(path, "private.bin"), Encoding.UTF8.GetBytes(Convert.ToBase64String(publicKeyBlob)));
 
