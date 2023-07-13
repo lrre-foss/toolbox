@@ -4,7 +4,8 @@ on: [push]
 jobs:
   build:
     strategy:
-      platform: [win-x64, linux-x64]
+      matrix:
+        platform: [win-x64, linux-x64]
     
     name: Build
     runs-on: ubuntu-latest
