@@ -33,6 +33,8 @@ namespace Toolbox.KeyGenerator
 
             File.WriteAllBytes(Path.Combine(path, "public.pem"), Encoding.UTF8.GetBytes(publicKeyPem));
             File.WriteAllBytes(Path.Combine(path, "private.pem"), Encoding.UTF8.GetBytes(privateKeyPem));
+
+            Console.WriteLine("success: wrote all keys!");
         }
     }
 }
