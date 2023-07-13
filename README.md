@@ -1,6 +1,6 @@
 # Toolbox
 [![License](https://img.shields.io/github/license/lrre-foss/toolbox)](https://github.com/lrre-foss/toolbox/blob/trunk/LICENSE)
-[![GitHub CI Status](https://img.shields.io/github/actions/workflow/status/lrre-foss/toolbox/ci?branch=trunk&label=builds)](https://github.com/lrre-foss/toolbox/actions)
+[![GitHub CI Status](https://img.shields.io/github/actions/workflow/status/lrre-foss/toolbox/ci.yml?branch=trunk&label=builds)](https://github.com/lrre-foss/toolbox/actions)
 [![Star](https://img.shields.io/github/stars/lrre-foss/toolbox?style=social)](https://github.com/lrre-foss/toolbox/stargazers)
 
 Assortment of tools used for modifying legacy Roblox client binaries
