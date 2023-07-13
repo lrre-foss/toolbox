@@ -5,15 +5,14 @@
 Assortment of tools used for modifying legacy Roblox client binaries
 
 ```
-Roblox.Tools
-↳ Roblox.DiogenesConverter
-↳ Roblox.ScriptSigner
-↳ Roblox.KeyGenerator
+Toolbox
+↳ Toolbox.ScriptSigner
+↳ Toolbox.KeyGenerator
 ```
 
 ## Build
 
-1. Open `Roblox.Tools.sln`
+1. Open `Toolbox.sln`
 2. Run a NuGet package restore
 3. Build Solution
 
