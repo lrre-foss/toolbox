@@ -15,10 +15,37 @@ jobs:
     - uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 7.0
+    
     - name: Build
       run: dotnet publish -r ${{ matrix.platform }} -c Release --no-self-contained -p:PublishDir=../publish/${{ matrix.platform }}
+    
     - name: Upload
       uses: actions/upload-artifact@v3
       with:
         name: ${{ matrix.platform }}
         path: publish/${{ matrix.platform }}/*
+  
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tag/v')
+
+    steps:
+      - name: Download release artifacts
+        uses: actions/download-artifact@v2
+        with:
+          path: x64
+      
+      - name: Rename artifacts
+        run: |
+          mv x64/win-x64.zip toolbox-${{ github.ref_name }}-win-x64.zip
+          mv x64/linux-x64.zip toolbox-${{ github.ref_name }}-linux-x64.zip
+      
+      - name: Create release draft
+        uses: softprops/action-gh-release@v1
+        with:
+          name: ${{ github.ref_name }}
+          draft: true
+          files: |
+            toolbox-${{ github.ref_name }}-win-x64.zip
+            toolbox-${{ github.ref_name }}-linux-x64.zip
