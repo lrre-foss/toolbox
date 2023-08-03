@@ -26,8 +26,10 @@ jobs:
         path: publish/${{ matrix.platform }}/*
   
   release:
-    needs: build
+    name: Release
     runs-on: ubuntu-latest
+    
+    needs: build
     if: startsWith(github.ref, 'refs/tag/v')
 
     steps:
