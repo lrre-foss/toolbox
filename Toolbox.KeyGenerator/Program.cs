@@ -33,7 +33,7 @@ namespace Toolbox.KeyGenerator
             Console.WriteLine("done!");
             
             File.WriteAllBytes(Path.Combine(path, "public.bin"), Encoding.UTF8.GetBytes(Convert.ToBase64String(publicKeyBlob)));
-            File.WriteAllBytes(Path.Combine(path, "private.bin"), Encoding.UTF8.GetBytes(Convert.ToBase64String(publicKeyBlob)));
+            File.WriteAllBytes(Path.Combine(path, "private.bin"), Encoding.UTF8.GetBytes(Convert.ToBase64String(privateKeyBlob)));
 
             File.WriteAllBytes(Path.Combine(path, "public.pem"), Encoding.UTF8.GetBytes(publicKeyPem));
             File.WriteAllBytes(Path.Combine(path, "private.pem"), Encoding.UTF8.GetBytes(privateKeyPem));
